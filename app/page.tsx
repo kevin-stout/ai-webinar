@@ -14,9 +14,9 @@ import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
 const examples = [
-  "Example 1",
-  "Example 2",
-  "Example 3",
+  "How do I delete past check-ins?",
+  "How do I end a recurring check-in series?",
+  "Why is someone no longer part of my coaching program/logs of when the person is removed from the program?",
 ];
 
 export default function Chat() {
@@ -83,10 +83,10 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              Hi, I'm a fine tuned LLM.
+              Hi, I'm an LLM to help you with your Check-In questions.
             </h1>
             <p className="text-gray-500">
-              I'm part of a series of computational experiments taught by{" "}
+              I'm part of a series of computational experiments
               <a
                 href="https://linkin.bio/yallahalim/"
                 target="_blank"
